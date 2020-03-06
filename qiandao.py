@@ -13,9 +13,9 @@ def login():
     global Token
     headers['Host'] = "apps.ulearning.cn"
     #用户名
-    username = ''
+    username = ""
     # 密码
-    password = ''
+    password = ""
     login_url = "https://apps.ulearning.cn/login"
     payload = {
         "loginName": username,
